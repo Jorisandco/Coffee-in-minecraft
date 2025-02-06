@@ -28,7 +28,7 @@ public class ItemManager {
 
         meta.setDisplayName("Coffee");
         meta.setColor(Color.BLACK);
-        meta.addCustomEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 50, 100), true);
+        meta.addCustomEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 5000, 100), true);
         item.setItemMeta(meta);
         coffee = item;
 
@@ -47,7 +47,7 @@ public class ItemManager {
 
         meta.setDisplayName("Cappuccino");
         meta.setColor(Color.fromRGB(150, 75, 0));
-        meta.addCustomEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 25, 100), true);
+        meta.addCustomEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 2500, 100), true);
         item.setItemMeta(meta);
         MilkCoffee = item;
 
