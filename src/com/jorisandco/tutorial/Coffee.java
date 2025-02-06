@@ -12,7 +12,7 @@ public class Coffee extends JavaPlugin {
     public void onEnable() {
         Debugcomands debugcomands = new Debugcomands();
         getServer().getPluginManager().registerEvents(new Joris_event(), this);
-        ItemManager.init();
+        ItemManager.init(this);
         getCommand("coffee").setExecutor(debugcomands);
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Coffee Plugin Enabled");
     }
