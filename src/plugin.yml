@@ -1,5 +1,5 @@
-name: Coffeec in minecraft
-Version: 1.0.0
+name: Coffee_in_minecraft
 author: JorisandCo
 main: com.jorisandco.tutorial.Coffee
-api-version: 1.1
+api-version: 1.21
+version: 1.0.0

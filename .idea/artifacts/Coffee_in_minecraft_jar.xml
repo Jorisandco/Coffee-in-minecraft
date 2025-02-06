@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Coffee in minecraft:jar">
+    <output-path>$PROJECT_DIR$/../../server/plugins</output-path>
+    <root id="archive" name="Coffee in minecraft.jar">
+      <element id="module-output" name="Coffee in minecraft" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Dependencies/spigot-api-1.21.4-R0.1-20250125.105843-29.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
