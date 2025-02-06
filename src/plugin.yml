@@ -3,3 +3,8 @@ author: JorisandCo
 main: com.jorisandco.tutorial.Coffee
 api-version: 1.21
 version: 1.0.0
+commands:
+  coffee:
+    description: Gives coffee
+    usage: /coffee
+    aliases: energy
