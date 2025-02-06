@@ -1,8 +1,10 @@
 package com.jorisandco.tutorial.items;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionEffect;
@@ -26,7 +28,10 @@ public class ItemManager {
         coffee = Item;
 
 
-        // brew recipe
-
+        // crafting
+        ShapelessRecipe s = new ShapelessRecipe(coffee);
+        s.addIngredient(1, Material.POTION);
+        s.addIngredient(1, Material.COCOA_BEANS);
+        Bukkit.getServer().addRecipe(s);
     }
 }
